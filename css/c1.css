@@ -1,0 +1,144 @@
+body{
+    background-attachment: scroll;
+    margin: 0px 10px 0px 10px;
+    background-color: #ffdbf1;
+    background-size: 1237px 1380px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#content{
+    place-content: center;
+    background-size: 100%;
+    margin: 20px 10px 30px 10px;
+
+}
+p {
+    font-family: Segoe UI, sans-serif !important;
+    font-size: 20pt;
+    margin-top: 30px;
+    font-weight: 600;
+    letter-spacing: 0.45px;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 1px 3px 3px #f34c8a, 5px 5px 9px #eeffcd;
+}
+
+header{
+    height: 60px;
+    font-family:Segoe UI, sans-serif !important ;
+    font-size:25pt;
+    padding:20px 30px 20px 30px;
+    word-break:normal;
+    color:  #f9e7ef;background-color:plum;
+    text-align:center; opacity:0.9;
+    vertical-align:top;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+footer{
+    font-family:Tahoma, Geneva, sans-serif !important;
+    font-size:18px;
+    display: inherit;
+    font-weight:normal;
+    height: 290px;
+    word-break:normal;
+    color:mintcream;background-color: plum;
+    text-align:right; opacity:0.9;
+    vertical-align: central;
+    padding:20px 30px 20px 30px;text-transform: uppercase;
+}
+
+
+.btn2{
+    background-color: thistle; align-items: center;
+    color: mintcream;
+    padding: 20px;
+    margin: 10px 50px;
+    border: none;
+    width: 25%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 3px  4px 0 brown;
+
+}
+.btn2:hover{ background-color: mediumvioletred}
+form{
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+input{
+    background-color: lavenderblush;
+    border-radius: 20px;
+    padding: 20px;
+    width: 25%;
+    font-size: 20px;
+    box-shadow: 1px 0px  1px 2px brown;
+}
+
+.slider{
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 15px;
+    color: bisque;
+}
+.slider .item img {
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: page;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: deeppink;
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
