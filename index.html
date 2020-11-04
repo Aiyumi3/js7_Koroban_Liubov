@@ -8,10 +8,10 @@
 
     <link rel="stylesheet" href="./css/c1.css" >
     <script src="./js/js.js"></script>
-    <script>
+    <!-- <script>
         document.getElementsByClassName("prev").addEventListener("click", minusSlide());
         document.getElementsByClassName("prev").addEventListener("click", plusSlide());
-    </script>
+    </script>-->
 </head>
 <body>
 <header> <marquee behavior="alternate" direction="left" >H
@@ -26,8 +26,8 @@
 <section  id="content">
 
     <div class="slider" >
-        <a class="prev" >prev</a>
-        <a class="next" >next</a>
+        <a class="prev" onclick="minusSlide()">prev</a>
+        <a class="next" onclick="plusSlide()">next</a>
         <div class="item">
             <img src="https://www.worldtravelguide.net/wp-content/uploads/2018/02/shu-Asia-South-Korea-Twilight-Seoul-Tower-in-Spring-629824091-nami-chwang-1440x823.jpg" alt="first">
 
