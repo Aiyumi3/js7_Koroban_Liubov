@@ -125,7 +125,7 @@ input{
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     
-	animation:fade 25s linear infinite;
+	animation:fade 1.5s;
 }
 @-webkit-keyframes fade {
     from {
