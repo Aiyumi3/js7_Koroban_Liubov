@@ -28,7 +28,8 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = 'block';
 }
-
+function infS() {
 for (let i = 0; i < Infinity; i++) {
   showSlides(slideIndex += 1);
+}
 }
