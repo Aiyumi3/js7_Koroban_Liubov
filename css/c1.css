@@ -88,11 +88,9 @@ input{
     margin-bottom: 15px;
     color: bisque;
     overflow: hidden;
-    animation:translateinfinite 25s linear infinite;
+    
 }
-@keyframes translateinfinite {
-	100% { transform:translateX(calc(-180px * 12));  }
-}
+
 .slider .item img {
     object-fit: cover;
     border: none !important;
@@ -126,8 +124,8 @@ input{
 .slider .item {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+    
+	animation:fade 25s linear infinite;
 }
 @-webkit-keyframes fade {
     from {
@@ -142,6 +140,8 @@ input{
         opacity: .4
     }
     to {
-        opacity: 1
+        opacity: 1;
+	transform:translateX(calc(-180px * 12));
     }
+	
 }
