@@ -88,6 +88,10 @@ input{
     margin-bottom: 15px;
     color: bisque;
     overflow: hidden;
+    animation:translateinfinite 25s linear infinite;
+}
+@keyframes translateinfinite {
+	100% { transform:translateX(calc(-180px * 12));  }
 }
 .slider .item img {
     object-fit: cover;
