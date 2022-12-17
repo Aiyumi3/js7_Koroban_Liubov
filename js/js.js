@@ -27,10 +27,4 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = 'block';
 }
-var splide = new Splide( '.item', {
-  type    : 'loop',
-  perPage : 1,
-  autoplay: true,
-} );
 
-splide.mount();
