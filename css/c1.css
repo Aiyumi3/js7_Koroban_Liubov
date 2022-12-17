@@ -141,7 +141,7 @@ input{
     }
     to {
         opacity: 1;
-	transform:translateX(calc(-180px * 12));
+	
     }
 	
 }
