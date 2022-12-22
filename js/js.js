@@ -33,3 +33,4 @@ for (let i = 0; i < 100; i++) {
   showSlides(slideIndex += 1);
 }
 }
+infS();
